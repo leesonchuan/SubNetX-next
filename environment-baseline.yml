@@ -1,0 +1,12 @@
+name: subnetx-baseline
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - pandas=1.5.*
+  - numpy=1.23.*
+  - rdkit=2022.09.*
+  - networkx=2.8.*
+  - matplotlib=3.6.*
+  - pytest=7.*
+  - openbabel=3.1.*

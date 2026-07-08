@@ -1,0 +1,18 @@
+runs/
+*.log
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Model checkpoints and training outputs
+checkpoints/
+*.ckpt
+*.pt
+*.pth
+*.onnx
+wandb/
+mlruns/
+training_outputs/
+
+# Temporary first-stage project workspaces and generated outputs
+1_subnetwork_extraction/projects/
